@@ -1,0 +1,30 @@
+* {
+  font-style: normal;
+}
+
+a {
+  color: firebrick;
+}
+.section-contact {
+  gap: 0;
+  padding-bottom: 2rem;
+}
+.article-contact-details {
+  padding-bottom: 1.5rem;
+}
+
+.article-paragraph:first-of-type {
+  padding-top: 1rem;
+}
+
+.article-paragraph:last-of-type {
+  padding-bottom: 1rem;
+}
+
+.article-message {
+  gap: 1.5rem;
+}
+
+.article-address {
+  padding: 0.5rem 2rem;
+}

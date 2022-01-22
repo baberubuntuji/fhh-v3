@@ -1,0 +1,36 @@
+.article-hero {
+  padding: 2rem 0;
+}
+
+.article-hero-overlay {
+  background-color: white;
+  width: max-content;
+  margin: auto;
+  padding: 0.5rem;
+}
+
+.article-hero-text {
+  color: firebrick;
+  font-weight: 900;
+  display: block;
+}
+
+.article-hero-line-1 {
+  font-size: 70px;
+  letter-spacing: -2.6px;
+}
+.article-hero-line-2 {
+  font-size: 12px;
+  letter-spacing: 0.49px;
+  margin-top: -0.8rem;
+  transform: translateX(1px);
+}
+.article-hero-line-3 {
+  font-size: 30px;
+  letter-spacing: 0.89px;
+  transform: translateX(1px);
+}
+
+.article-category-hidden {
+  display: none;
+}

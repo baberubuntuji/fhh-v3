@@ -1,0 +1,156 @@
+.section-home {
+  gap: 0;
+}
+
+.article-hero {
+  background-image: url(../img/home/new-york-night-map.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 5rem 0;
+}
+
+.article-hero-overlay {
+  background-color: #00000050;
+  width: max-content;
+  margin: auto;
+  padding: 0.5rem;
+}
+
+.article-hero-text {
+  color: white;
+  font-weight: 900;
+  display: block;
+}
+
+.article-hero-line-1 {
+  font-size: 70px;
+  letter-spacing: -2.6px;
+}
+.article-hero-line-2 {
+  font-size: 12px;
+  letter-spacing: 0.49px;
+  margin-top: -0.8rem;
+  transform: translateX(1px);
+}
+.article-hero-line-3 {
+  font-size: 30px;
+  letter-spacing: 0.89px;
+  transform: translateX(1px);
+}
+
+/* ARTICLE: CLIENTS */
+
+.article-clients {
+  padding-bottom: 1rem;
+}
+
+.article-clients-paragraph {
+  padding-top: 1rem;
+  width: 90%;
+  margin: auto;
+  text-align: center;
+}
+
+.article-clients-list {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  align-items: center;
+  place-items: center;
+}
+.article-clients-list-item {
+  background-color: white;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100px;
+  height: 100px;
+}
+.article-clients-list-item:nth-child(1) {
+  background-image: url(../img/home/clients/bakkavor.png);
+}
+.article-clients-list-item:nth-child(2) {
+  background-image: url(../img/home/clients/linde.webp);
+}
+.article-clients-list-item:nth-child(3) {
+  background-image: url(../img/home/clients/constantia-industries-ag.png);
+}
+.article-clients-list-item:nth-child(4) {
+  background-image: url(../img/home/clients/highways-england.png);
+}
+.article-clients-list-item:nth-child(5) {
+  background-image: url(../img/home/clients/cadbury.png);
+}
+.article-clients-list-item:nth-child(6) {
+  background-image: url(../img/home/clients/malton-foods.png);
+}
+.article-clients-list-item:nth-child(7) {
+  background-image: url(../img/home/clients/pfizer.png);
+}
+.article-clients-list-item:nth-child(8) {
+  background-image: url(../img/home/clients/tirotex.png);
+}
+.article-clients-list-item:nth-child(9) {
+  background-image: url(../img/home/clients/veolia.png);
+}
+
+/* ARTICLE: WHAT WE PROVIDE */
+
+.article-provide {
+  gap: 0;
+}
+
+.article-provide-paragraph {
+  text-align: center;
+  padding: 3rem 0;
+  /* font-size: 2rem; */
+  /* font-variant-caps: all-small-caps; */
+}
+
+.article-provide-list {
+  list-style-type: none;
+}
+
+.article-provide-list-item {
+  display: grid;
+  place-items: center;
+  padding: 2rem 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.article-provide-list-item:nth-child(1) {
+  background-image: url(../img/home/list-item-heated-hoses.png);
+}
+.article-provide-list-item:nth-child(2) {
+  background-image: url(../img/home/list-item-drum-heaters.png);
+}
+.article-provide-list-item:nth-child(3) {
+  background-image: url(../img/home/list-item-heater-panels.png);
+}
+
+.article-provide-list-item-overlay {
+  font-size: 4rem;
+  font-weight: 900;
+  background-color: #00000050;
+  color: white;
+  width: max-content;
+  padding: 1rem;
+}
+
+.article-provide-list-item:nth-child(4) .article-provide-list-item-overlay {
+  background-color: white;
+  color: black;
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+.article-provide-button {
+  margin: auto;
+  margin-bottom: 1rem;
+  width: 15rem;
+  text-align: center;
+}

@@ -1,0 +1,147 @@
+/* section */
+
+.section-products {
+  gap: 0;
+  /* padding-bottom: 0; */
+}
+
+/* article */
+.article-products-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0;
+}
+
+/* div */
+.article-product {
+  width: calc(var(--widthPageWrapper) / 2);
+  max-width: calc(var(--widthMax) / 2);
+  border: 1px solid #ccc;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+  gap: 2rem;
+  cursor: pointer;
+  pointer-events: all;
+}
+
+/* div */
+.article-product-image {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  pointer-events: none;
+}
+
+/* a */
+.article-product-text {
+  text-decoration: none;
+  color: black;
+  pointer-events: none;
+}
+
+/* 
+
+1. Heated Hoses
+2. Hydraulic Hoses
+3. Trace Heating Cables
+4. Heated Mats
+5. Heating Jackets
+6. Cooling Jackets
+7. Cartridge Heaters
+8. Band Heaters
+9. Radiant Heaters
+10. Drum Heating Systems
+11. Temperature Controllers
+12. Temperature Sensors
+13. Heater Control Panels
+14. Air Sensing Thermostats
+15. Hot Melt Machines
+16. Geared Pumps
+17. Plastic Molds 
+
+*/
+
+.article-product:nth-child(1) .article-product-image {
+  width: 140px;
+  height: 70px;
+  background-image: url(../img/products/product-heated-hoses-min.png);
+}
+.article-product:nth-child(2) .article-product-image {
+  width: 130px;
+  background-image: url(../img/products/product-hydraulic-hoses-min.png);
+}
+.article-product:nth-child(3) .article-product-image {
+  width: 90px;
+  background-image: url(../img/products/product-heat-tracing-cables-min.png);
+}
+.article-product:nth-child(4) .article-product-image {
+  width: 130px;
+  height: 80px;
+  background-image: url(../img/products/product-heated-mats-min.png);
+}
+.article-product:nth-child(5) .article-product-image {
+  width: 120px;
+  background-image: url(../img/products/product-heating-jackets-min.png);
+}
+.article-product:nth-child(6) .article-product-image {
+  width: 120px;
+  height: 120px;
+  background-image: url(../img/products/product-cooling-jackets-min.png);
+}
+.article-product:nth-child(7) .article-product-image {
+  width: 130px;
+  height: 70px;
+  background-image: url(../img/products/product-cartridge-heaters-min.png);
+}
+.article-product:nth-child(8) .article-product-image {
+  width: 125px;
+  background-image: url(../img/products/product-band-heaters-min.png);
+}
+.article-product:nth-child(9) .article-product-image {
+  width: 140px;
+  height: 40px;
+  background-image: url(../img/products/product-radiant-heaters-min.png);
+}
+.article-product:nth-child(10) .article-product-image {
+  width: 80px;
+  background-image: url(../img/products/product-drum-heating-systems-min.png);
+}
+.article-product:nth-child(11) .article-product-image {
+  width: 140px;
+  background-image: url(../img/products/product-temperature-controllers-min.png);
+}
+.article-product:nth-child(12) .article-product-image {
+  width: 130px;
+  background-image: url(../img/products/product-temperature-sensors-min.png);
+}
+.article-product:nth-child(13) .article-product-image {
+  width: 130px;
+  background-image: url(../img/products/product-heater-control-panels-min.png);
+}
+.article-product:nth-child(14) .article-product-image {
+  width: 150px;
+  height: 60px;
+  background-image: url(../img/products/product-air-sensing-thermostats-min.png);
+}
+.article-product:nth-child(15) .article-product-image {
+  width: 80px;
+  background-image: url(../img/products/product-hot-melt-machines-min.png);
+}
+.article-product:nth-child(16) .article-product-image {
+  background-image: url(../img/products/product-geared-pumps-min.png);
+}
+.article-product:nth-child(17) .article-product-image {
+  width: 120px;
+  background-image: url(../img/products/product-plastic-molds-min.png);
+}
+
+.section-products-paragraph {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
